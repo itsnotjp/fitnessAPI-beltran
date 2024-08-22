@@ -1,6 +1,7 @@
 const express = require('express')
 const userController = require('../controllers/user')
 const router = express.Router()
+const { verify } = require("../auth");
 
 // "login":"/login",
 // "register":"/register",
